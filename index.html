@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3(nodi)</title>
+    <link rel="stylesheet" href="/styles/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
 
 
 </head>
-<body class="font-manrope mx-36 mt-12"  > 
+<body class="font-manrope mx-4 lg:mx-36 lg:mt-12"  > 
     <header class="container mx-auto">
         <nav>
             <div class="navbar bg-base-100">
@@ -63,18 +64,18 @@
                 </div>
             </div>
         </nav> 
-        <!-- carousel section -->
+        
         <section>
             <div class="carousel w-full my-10">
-                <div id="slide1" class="carousel-item relative w-full ">
-                    <img src="Images/1.png" class="w-full" />
+                <div id="slide1" class=" carousel-item relative w-full ">
+                    <img src="./Images/1.png" class="w-full" />
                     <div class="  absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <div class=" absolute  top-12 right-0  w-2/5 m-8 space-y-3 bg-black text-white rounded-2xl h-40 p-8">
+                        <div class=" hidden lg:block absolute  lg:top-12 lg:right-0  w-2/5 m-8 space-y-3 bg-black text-white rounded-2xl h-40 p-8">
                         <h3 class="font-manrope font-extrabold "> Meet all the heroes from the field
                         </h3>
                         <p class=" font-thin text-base">Unleash the excitement! Join us for a legendary encounter with hockey heroes. An unforgettable meeting awaits on the ice. Lace up for an epic experience!</p>
                         </div>  
-                   <div>
+                   <div class="mx-auto lg:ml-4">
                     <a href="#slide4" class="btn btn-circle border-0 bg-black text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle border-0 bg-black text-white">❯</a>
                     </div>
@@ -82,11 +83,260 @@
                 </div>
                 
             </div>
+            <div class=" lg:hidden m-2 space-y-3 bg-black text-white rounded-2xl h-40 p-4">
+                <h3 class="font-manrope font-extrabold "> Meet all the heroes from the field
+                </h3>
+                <p class=" font-thin text-base">Unleash the excitement! Join us for a legendary encounter with hockey heroes. An unforgettable meeting awaits on the ice. Lace up for an epic experience!</p>
+                </div>  
             
         </section>   
 
     </header>
+    <hr class="mt-11">
     <main>
+        <section>
+            <div class="text-center my-24">
+                <h3 class="text-3xl font-extrabold lg:mb-8">Professional Hockeys Club</h3>
+                <p class="text-xl font-normal lg:max-w-3xl mb-10 mx-auto">At our Hockey Club, we're more than a community; we're a family united by our passion for the sport. Whether you're a beginner or a seasoned pro, we cultivate skill, teamwork, and a collective love for hockey at every level. Join us on the journey of growth and camaraderie!</p>
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="card w-96 bg-base-100 justify-center items-center">
+            
+                    <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+            
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-xl font-semibold">Prayer Facility</h2>
+                        <p class="text-xs font-normal">Create a sacred haven for personal spiritual exploration, reflection, and inclusive religious practices. 
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 justify-center items-center">
+                    <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-xl font-semibold">Experienced Coach</h2>
+                        <p class="text-xs font-normal">A seasoned coach brings priceless expertise, skill, and leadership, refined over years of hands-on experience, to provide guidance and mentorship for individuals or teams.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 justify-center items-center">
+                    <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-xl font-semibold">Senior Player</h2>
+                        <p class="text-xs font-normal">An experienced team member contributes seasoned expertise, leadership, and skill, representing years of on-field experience.
+
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 justify-center items-center">
+                    <div class="radial-progress text-primary" style="--value:85;" role="progressbar">85%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-xl font-semibold">Training Ground</h2>
+                        <p class="text-xs font-normal">A practice facility is a specialized venue where athletes refine their skills and ready themselves for competitions, serving as a crucial setting for development across different sports.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="text-center my-24">
+                <h3 class="text-4xl font-extrabold ">Program Sections</h3>
+                <p class="text-xl font-medium p-15 lg:p-5 lg:max-w-3xl mx-auto">A program section is a defined portion within a broader framework, usually centered around specific activities, initiatives, or content with the aim of accomplishing clear goals or objectives.</p>
+            </div>
+
+            <div class="lg:mx-auto">
+            
+                    <div class="grid grid-cols-1 md:flex lg:flex gap-2 ">
+                        <div class="card max-w-573px bg-base-100 shadow-xl image-full p-4">
+                            <figure><img src="./Images/2.png" alt="" /></figure>
+                            <div class="card-body ">
+                                <h2 class="card-title text-2xl font-extrabold">Junior Program</h2>
+                                <p class="text-xs">A youth program is a targeted initiative designed for young participants, delivering customized activities, education, and support to foster their skills and interests in a specific field or discipline.</p>
+                                <div class="card-actions justify-start">
+                                    <button class="btn btn-error text-white ">Register Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card max-w-573px bg-base-100 shadow-xl image-full p-4">
+                            <figure><img src="./Images/3.png" alt="" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-2xl font-extrabold">Teenager Program</h2>
+                                <p class="text-xs">A program for teenagers is a focused initiative crafted for adolescents, delivering customized activities, education, and support to meet the distinct needs and interests of this age group.</p>
+                                <div class="card-actions justify-start">
+                                    <button class="btn btn-error text-white">Register Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card max-w-1170px bg-base-100 shadow-xl image-full my-2 p-4">
+                        <figure><img src="./Images/4.png" alt="" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-2xl font-extrabold">Professional Program</h2>
+                            <p class="text-xs">A program for professionals is a well-organized initiative designed for individuals pursuing advanced skills, knowledge, and experiences in a specific field. It offers a comprehensive and specialized pathway for career development and expertise.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn btn-error text-white">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="mt-20">
+        <section>
+            <div>
+                <h3 class="text-4xl font-extrabold text-center my-6">Our New Products</h3>
+                <p class="text-xl font-thin lg:max-w-3xl mb-6 mx-auto">Our latest products embody inventive solutions tailored to address contemporary requirements, showcasing state-of-the-art technology, improved functionality, and a dedication to quality. This ensures customers an exciting and enhanced experience.</p>
+            </div>
+            <hr class="my-20">
+            
+                <div class="grid grid-cols-1 lg:flex gap-6">
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2 ">
+                        <figure><img src="./Images/5.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png" class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2">
+                        <figure><img src="./Images/6.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png"  class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png" class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 lg:flex gap-6 my-6">
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2">
+                        <figure><img src="./Images/7.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Caps for Hockey</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png"  class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2">
+                        <figure><img class="" src="./Images/8.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png" class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 lg:flex gap-6 my-1">
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2">
+                        <figure><img src="./Images/9.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png" class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-xl p-5 border-solid border-2">
+                        <figure ><img src="./Images/10.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-3">
+                                <img src="./Images/star.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">5.00</h3>
+                                <img src="./Images/eye-variant-with-enlarged-pupil.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">20</h3>
+                                <img src="./Images/heart.png" class="w-6 h-6" alt="">
+                                <h3 class="text-xl font-medium text-gray-400">200</h3>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-xl font-light text-gray-400">The World Cup football flag is a unifying symbol
+                                that represents the diverse nations and cultures participating in the prestigious global
+                                soccer tournament</p>
+                            <div class="flex gap-3">
+                                <h2 class="text-xl font-extrabold text-[#FF4240]">Price - $22.00</h2>
+                                <img src="./Images/shopping-cart-empty-side-view.png" class="w-6 h-6" alt="">
+                                <p class="text-xl font-normal text-gray-400">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+        <hr class="mt-20" >
+
 
     </main>
     <footer>
